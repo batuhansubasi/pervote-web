@@ -5,6 +5,6 @@ Kocaeli Üniversitesi Bilgisayar Mühendisliği Lisans Bitirme Çalışmasının
 - 160202091 - Batuhan Subaşı
 - 160202069 - Emre Altay
 
-## Content
+## İçerikler
 
--	[Misyon ve Amaç](#Misyon-ve-Amaç)
+-	[Misyon](#Misyon)
