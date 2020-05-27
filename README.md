@@ -14,4 +14,7 @@ Kocaeli Üniversitesi Bilgisayar Mühendisliği Lisans Bitirme Çalışmasının
 - [Yapılacaklar ve Geliştirmeye Açık Noktalar](#Yapılacaklar-ve-Geliştirilmeye-Açık-Noktalar)
 - [Sonuç](#Sonuç)
 
+## Misyon
+
+Personel oylama sisteminde, mobil uygulama tarafında birbirlerini oylayan personellerin genel olarak gidişahatını gözlemlemek için yazılmış olan React uygulamasıdır.
 
