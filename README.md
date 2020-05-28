@@ -16,5 +16,5 @@ Kocaeli Üniversitesi Bilgisayar Mühendisliği Lisans Bitirme Çalışmasının
 
 ## Misyon
 
-Personel oylama sisteminde, mobil uygulama tarafında birbirlerini oylayan personellerin genel olarak gidişahatını gözlemlemek için yazılmış olan React uygulamasıdır.
+Personel oylama sisteminde, mobil uygulama tarafında birbirlerini oylayan personellerin genel olarak gidişatını gözlemlemek için yazılmış olan React uygulamasıdır.
 
