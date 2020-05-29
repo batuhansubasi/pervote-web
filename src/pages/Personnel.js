@@ -41,12 +41,6 @@ export default class Personnel extends Component {
         .then((res) => this.setState({ users: res }))
         .catch(() => this.setState({ hasErrors: true }));
 
-      //Apiden hata döndüyse...
-      if (!this.state.hasErrors) {
-        this.setState({ alertText: "You dont have personnel for list" });
-        this.setState({ showAlert: true });
-      }
-
       const yedek = this.state.users;
       //personellerini dönüyoruz.
       for (let i = 0; i < yedek.length; i++) {
