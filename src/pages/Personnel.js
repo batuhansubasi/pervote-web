@@ -74,7 +74,7 @@ export default class Personnel extends Component {
 
         if (ortalamapuan !== 0) {
           ortalamapuan = ortalamapuan / point.length;
-          templete["rate"] = ortalamapuan.toFixed(2);
+          templete["rate"] = ortalamapuan;
         } else {
           templete["rate"] = "-";
         }
