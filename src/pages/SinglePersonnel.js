@@ -26,14 +26,14 @@ export default class SinglePersonnel extends Component {
     } else {
       jwt = getMailJwt();
       await fetch(
-        global.config.i18n.backend_api.url + "points/personnel/" + jwt
+        global.config.i18n.backend_api.url + "points/personnel/" + this.props.location.state
       )
         .then((res) => res.json())
         .then((res) => this.setState({ points: res }))
         .catch(() => this.setState({ hasErrors: true }));
 
       //Apiden hata döndüyse...
-      if (!this.state.hasErrors) {
+      if (!this.state.points) {
         this.setState({
           alertText: "Your personnel dont have any points for display.",
         });
