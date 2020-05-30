@@ -94,9 +94,6 @@ export default class Personnel extends Component {
             type: "string",
             editable: "never",
             cellStyle: (rowData) => ({
-              // if (rowData.rate > 3) {
-              // backgroundColor: "red", //todo
-              // }
               fontSize: 35,
               fontWeight: "bold",
               fontStyle: "italic",
