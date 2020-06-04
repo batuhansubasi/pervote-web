@@ -65,7 +65,7 @@ function Navbar() {
           </li>
           <li>
             <Link
-              to="/pervote-web/"
+              to="/pervote-web /"
               style={display(auth)}
               onClick={() => dispatch(loginaction())}
             >
