@@ -33,7 +33,7 @@ class Setting extends Component {
   async componentDidMount() {
     var jwt = getTokenJwt();
     if (!jwt) {
-      this.props.history.push("/login");
+      this.props.history.push("/pervote-web/login");
     } else {
       jwt = getMailJwt();
       this.setState({ email: jwt });
