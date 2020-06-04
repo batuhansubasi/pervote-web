@@ -22,7 +22,7 @@ export default class SinglePersonnel extends Component {
   async componentDidMount() {
     var jwt = getTokenJwt();
     if (!jwt) {
-      this.props.history.push("/login");
+      this.props.history.push("/pervote-web/login");
     } else {
       jwt = getMailJwt();
       await fetch(
