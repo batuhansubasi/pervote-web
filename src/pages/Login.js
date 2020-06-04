@@ -49,7 +49,7 @@ class Login extends Component {
   async componentDidMount() {
     const jwt = getTokenJwt();
     if (jwt) {
-      this.props.history.push("/personnel"); //todo , sonradan ac
+      this.props.history.push("/pervote-web/personnel"); //todo , sonradan ac
     }
   }
 
@@ -101,7 +101,7 @@ class Login extends Component {
             this.props.loginaction();
             this.props.emailaction(this.state.email);
             this.props.history.push({
-              pathname: `/personnel`,
+              pathname: `/pervote-web/personnel`,
             });
           }
         }
@@ -161,7 +161,7 @@ class Login extends Component {
                 Don't you have an account?{" "}
                 <a
                   className="underline"
-                  onClick={() => this.props.history.push("/register")}
+                  onClick={() => this.props.history.push("/pervote-web/register")}
                 >
                   Sign UP now!
                 </a>
