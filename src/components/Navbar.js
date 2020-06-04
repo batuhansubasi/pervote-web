@@ -20,7 +20,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <Link to="/">
+          <Link to="/pervote-web/">
             <img src={logo} alt="Beach Resort" />
           </Link>
 
@@ -34,38 +34,38 @@ function Navbar() {
         </div>
         <ul className={isOpen ? "nav-links show-nav" : "nav-links"}>
           <li>
-            <Link to="/login" style={display(!auth)}>
+            <Link to="/pervote-web/login" style={display(!auth)}>
               Login
             </Link>
           </li>
           <li>
-            <Link to="/register" style={display(!auth)}>
+            <Link to="/pervote-web/register" style={display(!auth)}>
               Register
             </Link>
           </li>
           <li>
-            <Link to="/mobile" style={display(!auth)}>
+            <Link to="/pervote-web/mobile" style={display(!auth)}>
               Mobile App
             </Link>
           </li>
           <li>
-            <Link to="/personnel" style={display(auth)}>
+            <Link to="/pervote-web/personnel" style={display(auth)}>
               My Personnels
             </Link>
           </li>
           <li>
-            <Link to="/department" style={display(auth)}>
+            <Link to="/pervote-web/department" style={display(auth)}>
               My Departments
             </Link>
           </li>
           <li>
-            <Link to="/settings" style={display(auth)}>
+            <Link to="/pervote-web/settings" style={display(auth)}>
               Admin Settings
             </Link>
           </li>
           <li>
             <Link
-              to="/"
+              to="/pervote-web/"
               style={display(auth)}
               onClick={() => dispatch(loginaction())}
             >
