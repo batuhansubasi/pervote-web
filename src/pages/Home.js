@@ -15,7 +15,7 @@ export const Home = () => {
         <h4>
           You should use Login button from here if you want to use this system.
         </h4>
-        <Link to="/login" className="btn-primary">
+        <Link to="/pervote-web/login" className="btn-primary">
           Login Button
         </Link>
       </Banner>
