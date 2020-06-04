@@ -29,7 +29,7 @@ class Register extends Component {
   onConfirm = () => {
     this.setState({ showAlert: false });
     this.setState({ alertText: "" });
-    this.props.history.push(`/login`);
+    this.props.history.push(`/pervote-web/login`);
   };
 
   onSubmit(e) {
@@ -91,7 +91,7 @@ class Register extends Component {
               Have an account?{" "}
               <a
                 className="underline"
-                onClick={() => this.props.history.push("/login")}
+                onClick={() => this.props.history.push("/pervote-web/login")}
               >
                 Sign IN now!
               </a>
