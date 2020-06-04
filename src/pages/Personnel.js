@@ -28,7 +28,7 @@ export default class Personnel extends Component {
   async componentDidMount() {
     var jwt = getTokenJwt();
     if (!jwt) {
-      this.props.history.push("/login");
+      this.props.history.push("/pervote-web/login");
     } else {
       //eğer jwt varsa... reduxtan islognedin bakılabilir.
       jwt = getMailJwt();
@@ -300,7 +300,7 @@ export default class Personnel extends Component {
                   this.setState({ showAlert: true });
                 } else {
                   this.props.history.push({
-                    pathname: `/personnel/` + rowData._id,
+                    pathname: `/pervote-web/personnel/` + rowData._id,
                     state: rowData._id,
                   });
                 }
