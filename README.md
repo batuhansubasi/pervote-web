@@ -35,15 +35,37 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 #### React
 
+
+#### Redux
+
+
+#### Material UI
+
+Textfield, loader, table, alert
+
+#### 
+
 ### Open-Source Kullanılan Kütüphaneler
 
+* [**React Icons**](https://react-icons.github.io/react-icons/) - İkon görselleri için kullanıldı.
 
+* [**Material UI Rating Lab**](https://material-ui.com/components/rating/) - Personellerin puanlarının görselleştirilmesinde kullanıldı.
+
+* [**React Moment**](https://www.npmjs.com/package/react-moment) - Veritabanından gelen timestamps' ın formatı için kullanıldı.
+
+* [**MaterialTable**](https://www.npmjs.com/package/material-table) - Personellerin tablo halinde listelenmesi, eklenmesi ve çıkarılması işlemleri yapıldı.
+
+* [**reCAPTCHA**](https://developers.google.com/recaptcha/docs/v3) - Login olurken spamı engellemek için kullanıldı.
+
+* [**react-loader-spinner**](https://www.npmjs.com/package/react-loader-spinner) - Personellerin puanlarının görselleştirilmesinde kullanıldı.
 
 ### Uygulama Ekran Görüntüleri
 
 
 
-### And coding style tests
+#### Yapılabilecekler
+
+* 
 
 
 
