@@ -17,29 +17,47 @@ Bu repo web tarafını kapsamaktadır. Proje 3 farklı sistem üzerinden 3 repo 
 
 **Micro:** Web ve mobil tarafın apilerinin ve bazı backend işlemlerinin yapıldığı taraftır.
 
+
 ## Nasıl Çalıştırılır?
 
+**1-** Proje bilgisayarınıza buradan indirilmelidir.
+
+**2-** İndirdiğiniz projenin dizinine gidin ve konsol ekranınızı açın.
+
 ```
-Give examples
+$npm install
 ```
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+**3-** Projeyi başlatabilirsiniz.
 
-*Initial work*
+```
+$npm run
+```
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
+[*Projeye canlı olarak buradan erişilebilir.*](https://batuhansubasi.github.io/pervote-web/)
+ 
 ## Kullanılan Temel Teknolojiler
 
 ### React
 
+UI için kullandığımız javascript kütüphanesi. Yeniden kullanılabilir özelliklerinden faydalandık. Virtual dom' a sahip olması vs. ilk kez web geliştiren bizler için etkileyici oldu. Genel yapıyı react kütüphanesi üzerinden yürüttük.
+
+Öğrenelim ve uygulayalım diye; react-router-dom(switch, route, link, redirect vs.) kullanıldı.
+
 ### Redux
+
+Oluşturmuş olduğumuz componentlerin statelerini, diğer componentlerden rahatça çekebilmek ve ortak havuz oluşturmak amacıyla kullandık. İlk amacımız ise tabiki uygulamak ve öğrenmek içindi. Bu uygulamada ise sisteme giren kullanıcı bilgisini ve giriş yapıp yapmadığı dair kontrol parametresi kullandık.
+
+![image](https://user-images.githubusercontent.com/30631029/83916555-0f24a880-a77e-11ea-837b-e523c9bfd7ab.png)
+
+Lokal çalışma üzerinden Redux Ekran Görüntüsü
 
 ### Material UI
 
-Textfield, loader, table, alert
+* Verilerin girildiği tekil bazı kutucuklarda, (textfield)
+* Componentlerin hazırlanmasını beklerken animasyonlarda, (loader)
+* Verilerin gösterilmesini, eklenebilmesini, silinmesi sağlayan ve ekstra exitlere açık olan tablo yapısında,
+* Kullanıcıyı uyarmak için ekranda gösterdiğimiz uyarı metinlerinde (alert) **Material UI** kullanıldı.
 
 ## Open-Source Kullanılan Kütüphaneler
 
@@ -54,6 +72,41 @@ Textfield, loader, table, alert
 * [**reCAPTCHA**](https://developers.google.com/recaptcha/docs/v3) - Login olurken spamı engellemek için kullanıldı.
 
 * [**react-loader-spinner**](https://www.npmjs.com/package/react-loader-spinner) - Personellerin puanlarının görselleştirilmesinde kullanıldı.
+
+## Proje Dizini İçerisindeki Klasörler ve Dosyalar
+
+pervote-web
+ |-- src
+      |-- actions 
+           |-- index.js
+      |-- components 
+           |-- Banner.js
+           |-- Hero.js
+           |-- Navbar.js
+           |-- Personnel.js
+           |-- UserFunction.js
+      |-- helpers
+           |-- jwt.js
+      |-- images
+           |-- UserFunction.js
+           |-- UserFunction.js
+      |-- pages
+           |-- UserFunction.js
+           |-- UserFunction.js
+           |-- UserFunction.js
+           |-- UserFunction.js
+           |-- UserFunction.js
+           |-- UserFunction.js
+           |-- UserFunction.js
+           |-- UserFunction.js
+           |-- UserFunction.js
+      |-- reducers
+           |-- UserFunction.js
+           |-- UserFunction.js
+           |-- UserFunction.js
+      |-- UserFunction.js
+      |-- UserFunction.js
+      |-- UserFunction.js
 
 ## Uygulama Ekran Görüntüleri
 
