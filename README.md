@@ -59,13 +59,37 @@ Textfield, loader, table, alert
 
 ![image](https://user-images.githubusercontent.com/30631029/83819475-a16f7280-a6d2-11ea-8c95-76b5a8b3e414.png)
 
-Ana Sayfa Ekranı
+**Ana Sayfa Ekranı:** Uygulama üzerinden adminin ve sistemin ne yapacağı hakkında bilgi veren giriş ekranıdır.
 
 ---
 
-![image](https://user-images.githubusercontent.com/30631029/83820084-4dfe2400-a6d4-11ea-9231-b02c749a7bfe.png)
+![image](https://user-images.githubusercontent.com/30631029/83914763-8fe1a580-a77a-11ea-82d8-d6d6cfd31553.png)
 
-Kaydolma Ekranı
+**Kaydolma Ekranı:** Sisteme üye olmak isteyen yönetici kaydolma ekranıdır.
+
+---
+
+![image](https://user-images.githubusercontent.com/30631029/83913954-f9f94b00-a778-11ea-9bcf-bac9a9b876c1.png)
+
+**Giriş Ekranı:** Sisteme giriş yapacak olan yönetici giriş ekranıdır.
+
+---
+
+![image](https://user-images.githubusercontent.com/30631029/83914078-3462e800-a779-11ea-9508-1a8881cf9195.png)
+
+**Admin Personel Yönetim Ekranı:** Personellerin resim, genel bilgi ve ortalama puanlarıyla beraber listelendiği, ekleme ve çıkarma seçeneklerinin olduğu ve ilgili personelin puan detaylarına gidebileceği işlevsellik bulunmaktadır.
+
+---
+
+![image](https://user-images.githubusercontent.com/30631029/83914174-607e6900-a779-11ea-8571-2b372cd630f5.png)
+
+**İlgili Personelin Puan Detay Ekranı:** Personelin almış olduğu puanların, hangi toplantıda ve kim tarafından oy verildiğinin listelendiği ekrandır.
+
+---
+
+![image](https://user-images.githubusercontent.com/30631029/83914200-6bd19480-a779-11ea-98a1-fcb07811684c.png)
+
+**Admin Departman Yönetim Ekranı:** Departmanların görüntülenmesi, eklenebilmesi ve çıkarabilmesini sağlayan yönetim ekranıdır.
 
 ---
 
