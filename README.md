@@ -31,21 +31,17 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-### Kullanılan Temel Teknolojiler
+## Kullanılan Temel Teknolojiler
 
-#### React
+### React
 
+### Redux
 
-#### Redux
-
-
-#### Material UI
+### Material UI
 
 Textfield, loader, table, alert
 
-#### 
-
-### Open-Source Kullanılan Kütüphaneler
+## Open-Source Kullanılan Kütüphaneler
 
 * [**React Icons**](https://react-icons.github.io/react-icons/) - İkon görselleri için kullanıldı.
 
@@ -59,27 +55,20 @@ Textfield, loader, table, alert
 
 * [**react-loader-spinner**](https://www.npmjs.com/package/react-loader-spinner) - Personellerin puanlarının görselleştirilmesinde kullanıldı.
 
-### Uygulama Ekran Görüntüleri
+## Uygulama Ekran Görüntüleri
 
+![image](https://user-images.githubusercontent.com/30631029/83819475-a16f7280-a6d2-11ea-8c95-76b5a8b3e414.png)
 
+Ana Sayfa Ekranı
 
-#### Yapılabilecekler
+---
 
-* 
+![image](https://user-images.githubusercontent.com/30631029/83820084-4dfe2400-a6d4-11ea-9231-b02c749a7bfe.png)
 
+Kaydolma Ekranı
 
+---
 
-## Versioning
+## Yapılabilecekler
 
-
-## Authors
-
-
-
-## License
-
-
-
-## Acknowledgments
-
-
+* name.com üzerinden domain alındı. (06 Mart) Şuan github page' den host yapılıyor. İleriye doğru kendi domain geçilebilir.
