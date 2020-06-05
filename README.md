@@ -26,6 +26,7 @@ Bu repo web tarafını kapsamaktadır. Proje 3 farklı sistem üzerinden 3 repo 
 
 ```
 $npm install
+
 ```
 
 **3-** Projeyi başlatabilirsiniz.
@@ -74,7 +75,7 @@ Lokal çalışma üzerinden Redux Ekran Görüntüsü
 * [**react-loader-spinner**](https://www.npmjs.com/package/react-loader-spinner) - Personellerin puanlarının görselleştirilmesinde kullanıldı.
 
 ## Proje Dizini İçerisindeki Klasörler ve Dosyalar
-
+```
 pervote-web
  |-- src
       |-- actions 
@@ -107,7 +108,7 @@ pervote-web
       |-- UserFunction.js
       |-- UserFunction.js
       |-- UserFunction.js
-
+```
 ## Uygulama Ekran Görüntüleri
 
 ![image](https://user-images.githubusercontent.com/30631029/83819475-a16f7280-a6d2-11ea-8c95-76b5a8b3e414.png)
