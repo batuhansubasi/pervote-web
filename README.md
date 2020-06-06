@@ -75,6 +75,7 @@ Lokal çalışma üzerinden Redux Ekran Görüntüsü
 * [**react-loader-spinner**](https://www.npmjs.com/package/react-loader-spinner) - Personellerin puanlarının görselleştirilmesinde kullanıldı.
 
 ## Proje Dizini İçerisindeki Klasörler ve Dosyalar
+Bu örnek dizin harici, proje için kullanılan başka dosyalarda var. Sadece doğrudan yazdıklarımızı açıklayacağız.
 ```
 pervote-web
  |-- src
@@ -89,25 +90,25 @@ pervote-web
       |-- helpers
            |-- jwt.js
       |-- images
-           |-- UserFunction.js
-           |-- UserFunction.js
+           |-- defaultBcg.jpeg
+           |-- logo.svg
       |-- pages
-           |-- UserFunction.js
-           |-- UserFunction.js
-           |-- UserFunction.js
-           |-- UserFunction.js
-           |-- UserFunction.js
-           |-- UserFunction.js
-           |-- UserFunction.js
-           |-- UserFunction.js
-           |-- UserFunction.js
+           |-- Department.js
+           |-- Error.js
+           |-- Home.js
+           |-- Login.js
+           |-- Mobile.js
+           |-- Personnel.js
+           |-- Register.js
+           |-- Setting.js
+           |-- SinglePersonnel.js
       |-- reducers
-           |-- UserFunction.js
-           |-- UserFunction.js
-           |-- UserFunction.js
-      |-- UserFunction.js
-      |-- UserFunction.js
-      |-- UserFunction.js
+           |-- index.js
+           |-- isLogged.js
+           |-- loggedEmail.js
+      |-- App.css
+      |-- App.js
+      |-- index.js
 ```
 ## Uygulama Ekran Görüntüleri
 
