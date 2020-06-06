@@ -13,7 +13,7 @@ Bu repo web tarafını kapsamaktadır. Proje 3 farklı sistem üzerinden 3 repo 
 
 **Web:** Admin yönetim tarafıdır. Yönetici, buradan kaydolur. Personelleri, departmanlarını oluşturur. Personellerin genel ve detaylı şekilde puan performansını görüntüler.
 
-**Mobil:** Personelin sisteme giriş yaptığı kısımdır. Personeller şirket içi çalışanlarlaa beraber toplantılar oluşturur. Bu toplantılar sonucunda, toplantıya katılanlar birbirini oylar. Detaylı bilgileri girebileceği alan mevcuttur. 
+**Mobil:** Personelin sisteme giriş yaptığı kısımdır. Personeller şirket içi çalışanlarla beraber toplantılar oluşturur. Bu toplantılar sonucunda, toplantıya katılanlar birbirini oylar. Detaylı bilgileri girebileceği alan mevcuttur. 
 
 **Micro:** Web ve mobil tarafın apilerinin ve bazı backend işlemlerinin yapıldığı taraftır.
 
@@ -43,7 +43,7 @@ $npm run
 
 UI için kullandığımız javascript kütüphanesi. Yeniden kullanılabilir özelliklerinden faydalandık. Virtual dom' a sahip olması vs. ilk kez web geliştiren bizler için etkileyici oldu. Genel yapıyı react kütüphanesi üzerinden yürüttük.
 
-Öğrenelim ve uygulayalım diye; react-router-dom(switch, route, link, redirect vs.) kullanıldı.
+Öğrenelim ve uygulayalım diye; componentler arası geçiş için react-router-dom(switch, route, link, redirect vs.) kullanıldı.
 
 ### Redux
 
@@ -57,7 +57,7 @@ Lokal çalışma üzerinden Redux Ekran Görüntüsü
 
 * Verilerin girildiği tekil bazı kutucuklarda, (textfield)
 * Componentlerin hazırlanmasını beklerken animasyonlarda, (loader)
-* Verilerin gösterilmesini, eklenebilmesini, silinmesi sağlayan ve ekstra exitlere açık olan tablo yapısında,
+* Verilerin gösterilmesini, eklenebilmesini, silinmesi sağlayan ve ekstra exitlere açık olan **table** yapısında,
 * Kullanıcıyı uyarmak için ekranda gösterdiğimiz uyarı metinlerinde (alert) **Material UI** kullanıldı.
 
 ## Open-Source Kullanılan Kütüphaneler
@@ -80,35 +80,35 @@ Bu örnek dizin harici, proje için kullanılan başka dosyalarda var. Sadece do
 pervote-web
  |-- src
       |-- actions 
-           |-- index.js
-      |-- components 
-           |-- Banner.js
-           |-- Hero.js
-           |-- Navbar.js
-           |-- Personnel.js
-           |-- UserFunction.js
-      |-- helpers
-           |-- jwt.js
-      |-- images
-           |-- defaultBcg.jpeg
-           |-- logo.svg
+           |-- index.js           -> Redux üzerinde hangi işlemi gerçekleştireceğimizi (giriş için mi yoksa email kaydetmek için mi)                                       burada tanımlıyoruz.
+      |-- components    
+           |-- Banner.js          -> Genellikle tek işlemli işlevlere sahip olan sayfalarımızda ortak olarak kullandığımız, sayfanın tam                                   ortasında bulunan ve özelleştirilebilen component.
+           |-- Hero.js            -> Navigationbar ile ayrışmamızı sağlayan component. Özelleştirilmezse App.css dosyasında defaultHero                                   olarak dizaynı belirlemekte.
+           |-- Navbar.js          -> Üst tarafta bulunan, hızlı yönlendirmelere sahip işlev. Sisteme giriş yapılmadığı zamanki                                             elementler ile sisteme giriş yapıldıktan sonraki elementler değişiyor.
+           |-- Personnel.js       -> İlgili personele verilmiş olan oyların tek tek listelendiği ekranda, tekilleştirmeyi yeniden                                         kullanılabilir yapıyı sağlayan component. Component içerisinde puanlanmış olan toplantı bilgisi, oyu                                     veren personel bilgisi ve oy bilgileri elementlere sahip.
+           |-- UserFunction.js    -> Backend tarafında yazmış olduğumuz rest API' lere, bu ortak oluşturmuş olduğumuz fonksiyon                                           yapısıyla gidildi.
+      |-- helpers   
+           |-- jwt.js             -> Backend tarafında login işlemlerinde bize dönen storeKey değişkeni => jwt, React' ın localStorage '                                   ında tutuldu, kullanıcı logout yapıldığında sıfırlandı.
+      |-- images   
+           |-- defaultBcg.jpeg    -> Ekranın arkasına defaultHero seçildiğinde statik olarak gelen resim.
+           |-- logo.svg           -> Navigationbar üzerinde bulunan statik, proje logomuz.
       |-- pages
-           |-- Department.js
-           |-- Error.js
-           |-- Home.js
-           |-- Login.js
-           |-- Mobile.js
-           |-- Personnel.js
-           |-- Register.js
-           |-- Setting.js
-           |-- SinglePersonnel.js
+           |-- Department.js      ->
+           |-- Error.js           ->
+           |-- Home.js            ->
+           |-- Login.js           ->
+           |-- Mobile.js          ->
+           |-- Personnel.js       ->
+           |-- Register.js        ->
+           |-- Setting.js         ->
+           |-- SinglePersonnel.js ->
       |-- reducers
-           |-- index.js
-           |-- isLogged.js
-           |-- loggedEmail.js
-      |-- App.css
-      |-- App.js
-      |-- index.js
+           |-- index.js           ->
+           |-- isLogged.js        ->
+           |-- loggedEmail.js     -> 
+      |-- App.css                 ->
+      |-- App.js                  ->
+      |-- index.js                ->
 ```
 ## Uygulama Ekran Görüntüleri
 
