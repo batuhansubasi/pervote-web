@@ -96,19 +96,19 @@ pervote-web
            |-- Department.js      -> Yönetici bazında departman bilgisinin gösterildiği, eklenebildiği ve çıkarabildiği sayfadır. 
            |-- Error.js           -> Yetkilendirmeden ya da var olmamasından dolayı ilgili pathe gidildiğinde kullanıcıya hata döndüğünü gösteren ekrandır.
            |-- Home.js            -> Giriş ekranıdır, genel bilgilendirme yapılmıştır.
-           |-- Login.js           -> 
-           |-- Mobile.js          ->
-           |-- Personnel.js       ->
-           |-- Register.js        ->
-           |-- Setting.js         ->
-           |-- SinglePersonnel.js ->
+           |-- Login.js           -> Yönetici giriş ekranıdır. Şifreyi unutulursa, şifreyi ilgili maile gönderme özelliği vardır. Bu sayfa üzerinde Recaptcha kullanılmıştır.
+           |-- Mobile.js          -> Mobil uygulama için bilgilendirme ekranıdır.
+           |-- Personnel.js       -> Personellerin listelendiği sayfadır. Personel resmi, genel ortalama puan durumu, departmanı ve kişisel bilgileri yer almaktadır. Buradan single personnel componentine gidilebilir, böylece tıklanan personelin puan detayları görüntülenir. Aynı zamanda silme, ekleme, arama yapma gibi özellikleri vardır.
+           |-- Register.js        -> Yöneticinin sisteme kaydolma ekranıdır.
+           |-- Setting.js         -> Yöneticinin şifre değiştirme ekranıdır.
+           |-- SinglePersonnel.js -> Bir personelin, hangi puanlarının aldığı detay ekranıdır. Component klasöründeki Personnel.js dosyasının Hero içerisinde listelenmiş halidir.
       |-- reducers
-           |-- index.js           ->
-           |-- isLogged.js        ->
-           |-- loggedEmail.js     -> 
-      |-- App.css                 ->
-      |-- App.js                  ->
-      |-- index.js                ->
+           |-- index.js           -> Redux için oluşturmuş olduğunuz 2 reducers' ın tek bir reducer halinde geri döndürülmesi amacıyla oluşturulan dosyadır.
+           |-- isLogged.js        -> Sisteme kullanıcı giriş yaptığı zaman, action type' ına göre koşullandırılıp gerekli işlemlerin yapıldığı dosyasıdır.
+           |-- loggedEmail.js     -> Sisteme girilen kullanıcının email bilgisini tutar.
+      |-- App.css                 -> Genel dizayn dosyamızdır. Global değişkenler, navigationbar, hero, banner ve person elementlerine özgü gerekli dizayn ögelerini barındırır.
+      |-- App.js                  -> Sistemin route' larının belirlendiği kısımdır. Yetkilendirme varsa bazıları, yetkilendirme yoksa diğerleri görüntülenir.
+      |-- index.js                -> Projenin başlatıldığı kısımdır. Redux' un store'u, React' in routerı vs. taglerle sarmalanmıştır.
 ```
 ## Uygulama Ekran Görüntüleri
 
