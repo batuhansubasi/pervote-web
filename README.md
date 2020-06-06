@@ -21,7 +21,7 @@ Bu repo web tarafını kapsamaktadır. Proje 3 farklı sistem üzerinden 3 repo 
 
 -	[Nasıl Çalıştırılır?](#nasil-calistirilir)
 -	[Open-Source Kullanılan Kütüphaneler](#opensource-kullanilan-kutuphaneler)
--	[Proje Dizini İçerisindeki Klasörler ve Dosyalar](#projedizini-klasor-ve-dosyalar)
+-	[Proje Dizini İçerisindeki Klasörler ve Dosyalar](#proje-dizini-klasor-ve-dosyalar)
 -	[Uygulama Ekran Görüntüleri](#uygulama-ekran-goruntuleri)
 
 
@@ -81,7 +81,7 @@ Lokal çalışma üzerinden Redux Ekran Görüntüsü
 
 * [**react-loader-spinner**](https://www.npmjs.com/package/react-loader-spinner) - Personellerin puanlarının görselleştirilmesinde kullanıldı.
 
-## ProjeDizini Klasor ve Dosyalar
+## Proje Dizini Klasor ve Dosyalar
 Bu örnek dizin harici, proje için kullanılan başka dosyalarda var. Sadece doğrudan yazdıklarımızı açıklayacağız.
 ```
 pervote-web
