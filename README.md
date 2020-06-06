@@ -80,23 +80,23 @@ Bu örnek dizin harici, proje için kullanılan başka dosyalarda var. Sadece do
 pervote-web
  |-- src
       |-- actions 
-           |-- index.js           -> Redux üzerinde hangi işlemi gerçekleştireceğimizi (giriş için mi yoksa email kaydetmek için mi)                                       burada tanımlıyoruz.
+           |-- index.js           -> Redux üzerinde hangi işlemi gerçekleştireceğimizi (giriş için mi yoksa email kaydetmek için mi) burada tanımlıyoruz.
       |-- components    
-           |-- Banner.js          -> Genellikle tek işlemli işlevlere sahip olan sayfalarımızda ortak olarak kullandığımız, sayfanın tam                                   ortasında bulunan ve özelleştirilebilen component.
-           |-- Hero.js            -> Navigationbar ile ayrışmamızı sağlayan component. Özelleştirilmezse App.css dosyasında defaultHero                                   olarak dizaynı belirlemekte.
-           |-- Navbar.js          -> Üst tarafta bulunan, hızlı yönlendirmelere sahip işlev. Sisteme giriş yapılmadığı zamanki                                             elementler ile sisteme giriş yapıldıktan sonraki elementler değişiyor.
-           |-- Personnel.js       -> İlgili personele verilmiş olan oyların tek tek listelendiği ekranda, tekilleştirmeyi yeniden                                         kullanılabilir yapıyı sağlayan component. Component içerisinde puanlanmış olan toplantı bilgisi, oyu                                     veren personel bilgisi ve oy bilgileri elementlere sahip.
-           |-- UserFunction.js    -> Backend tarafında yazmış olduğumuz rest API' lere, bu ortak oluşturmuş olduğumuz fonksiyon                                           yapısıyla gidildi.
+           |-- Banner.js          -> Genellikle tek işlemli işlevlere sahip olan sayfalarımızda ortak olarak kullandığımız, sayfanın tam ortasında bulunan ve özelleştirilebilen component.
+           |-- Hero.js            -> Navigationbar ile ayrışmamızı sağlayan component. Özelleştirilmezse App.css dosyasında defaultHero olarak dizaynı belirlemekte.
+           |-- Navbar.js          -> Üst tarafta bulunan, hızlı yönlendirmelere sahip işlev. Sisteme giriş yapılmadığı zamanki elementler ile sisteme giriş yapıldıktan sonraki elementler değişiyor.
+           |-- Personnel.js       -> İlgili personele verilmiş olan oyların tek tek listelendiği ekranda, tekilleştirmeyi yeniden      kullanılabilir yapıyı sağlayan component. Component içerisinde puanlanmış olan toplantı bilgisi, oyu veren personel bilgisi ve oy bilgileri elementlere sahip.
+           |-- UserFunction.js    -> Backend tarafında yazmış olduğumuz rest API' lere, bu ortak oluşturmuş olduğumuz fonksiyon         yapısıyla gidildi.
       |-- helpers   
-           |-- jwt.js             -> Backend tarafında login işlemlerinde bize dönen storeKey değişkeni => jwt, React' ın localStorage '                                   ında tutuldu, kullanıcı logout yapıldığında sıfırlandı.
+           |-- jwt.js             -> Backend tarafında login işlemlerinde bize dönen storeKey değişkeni => jwt, React' ın localStorage' ında tutuldu, kullanıcı logout yapıldığında sıfırlandı.
       |-- images   
            |-- defaultBcg.jpeg    -> Ekranın arkasına defaultHero seçildiğinde statik olarak gelen resim.
            |-- logo.svg           -> Navigationbar üzerinde bulunan statik, proje logomuz.
       |-- pages
-           |-- Department.js      ->
-           |-- Error.js           ->
-           |-- Home.js            ->
-           |-- Login.js           ->
+           |-- Department.js      -> Yönetici bazında departman bilgisinin gösterildiği, eklenebildiği ve çıkarabildiği sayfadır. 
+           |-- Error.js           -> Yetkilendirmeden ya da var olmamasından dolayı ilgili pathe gidildiğinde kullanıcıya hata döndüğünü gösteren ekrandır.
+           |-- Home.js            -> Giriş ekranıdır, genel bilgilendirme yapılmıştır.
+           |-- Login.js           -> 
            |-- Mobile.js          ->
            |-- Personnel.js       ->
            |-- Register.js        ->
