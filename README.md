@@ -17,8 +17,15 @@ Bu repo web tarafını kapsamaktadır. Proje 3 farklı sistem üzerinden 3 repo 
 
 **Micro:** Web ve mobil tarafın apilerinin ve bazı backend işlemlerinin yapıldığı taraftır.
 
+# Genel İcerik
 
-## Nasıl Çalıştırılır?
+-	[Nasıl Çalıştırılır?](#nasil-calistirilir)
+-	[Open-Source Kullanılan Kütüphaneler](#opensource-kullanilan-kutuphaneler)
+-	[Proje Dizini İçerisindeki Klasörler ve Dosyalar](#projedizini-klasor-ve-dosyalar)
+-	[Uygulama Ekran Görüntüleri](#uygulama-ekran-goruntuleri)
+
+
+## Nasil Calistirilir
 
 **1-** Proje bilgisayarınıza buradan indirilmelidir.
 
@@ -37,7 +44,7 @@ $npm run
 
 [*Projeye canlı olarak buradan erişilebilir.*](https://batuhansubasi.github.io/pervote-web/)
  
-## Kullanılan Temel Teknolojiler
+## Kullanilan Temel Teknolojiler
 
 ### React
 
@@ -60,7 +67,7 @@ Lokal çalışma üzerinden Redux Ekran Görüntüsü
 * Verilerin gösterilmesini, eklenebilmesini, silinmesi sağlayan ve ekstra exitlere açık olan **table** yapısında,
 * Kullanıcıyı uyarmak için ekranda gösterdiğimiz uyarı metinlerinde (alert) **Material UI** kullanıldı.
 
-## Open-Source Kullanılan Kütüphaneler
+## OpenSource Kullanilan Kutuphaneler
 
 * [**React Icons**](https://react-icons.github.io/react-icons/) - İkon görselleri için kullanıldı.
 
@@ -74,7 +81,7 @@ Lokal çalışma üzerinden Redux Ekran Görüntüsü
 
 * [**react-loader-spinner**](https://www.npmjs.com/package/react-loader-spinner) - Personellerin puanlarının görselleştirilmesinde kullanıldı.
 
-## Proje Dizini İçerisindeki Klasörler ve Dosyalar
+## ProjeDizini Klasor ve Dosyalar
 Bu örnek dizin harici, proje için kullanılan başka dosyalarda var. Sadece doğrudan yazdıklarımızı açıklayacağız.
 ```
 pervote-web
@@ -110,7 +117,7 @@ pervote-web
       |-- App.js                  -> Sistemin route' larının belirlendiği kısımdır. Yetkilendirme varsa bazıları, yetkilendirme yoksa diğerleri görüntülenir.
       |-- index.js                -> Projenin başlatıldığı kısımdır. Redux' un store'u, React' in routerı vs. taglerle sarmalanmıştır.
 ```
-## Uygulama Ekran Görüntüleri
+## Uygulama Ekran Goruntuleri
 
 ![image](https://user-images.githubusercontent.com/30631029/83819475-a16f7280-a6d2-11ea-8c95-76b5a8b3e414.png)
 
@@ -148,6 +155,6 @@ pervote-web
 
 ---
 
-## Yapılabilecekler
+## Yapilabilecekler
 
 * name.com üzerinden domain alındı. (06 Mart) Şuan github page' den host yapılıyor. İleriye doğru kendi domain geçilebilir.
