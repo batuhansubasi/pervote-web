@@ -17,7 +17,7 @@ Bu repo web tarafını kapsamaktadır. Proje 3 farklı sistem üzerinden 3 repo 
 
 **Micro:** Web ve mobil tarafın apilerinin ve bazı backend işlemlerinin yapıldığı taraftır.
 
-# Genel İcerik
+# Genel İçerik
 
 -	[Nasıl Çalıştırılır?](#nasil-calistirilir)
 -	[Open-Source Kullanılan Kütüphaneler](#opensource-kullanilan-kutuphaneler)
