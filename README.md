@@ -159,4 +159,4 @@ pervote-web
 
 * name.com üzerinden domain alındı. (06 Mart) Şuan github page' den host yapılıyor. İleriye doğru kendi domain geçilebilir.
 
-* Docker denendi fakat daha fazla araştırılarak uygulanması gerekiyor.
+* Docker başlangıcı için araştırma yapıldı fakat uygulanması henüz gerçekleştirilmedi.
