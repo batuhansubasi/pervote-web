@@ -42,7 +42,7 @@ $npm install
 $npm run
 ```
 
-[*Projeye canlı olarak buradan erişilebilir.*](https://batuhansubasi.github.io/pervote-web/)
+[*Sisteme canlı olarak buradan erişilebilir.*](https://batuhansubasi.github.io/pervote-web/)
  
 ## Kullanilan Temel Teknolojiler
 
