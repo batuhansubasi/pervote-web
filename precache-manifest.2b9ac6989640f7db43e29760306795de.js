@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5362d94a460e6c0c1d274f6a22600428",
+    "revision": "ae41ac9664a267c1cf70b2b545192f4b",
     "url": "/pervote-web/index.html"
   },
   {
-    "revision": "8274c597222d3b5ffd26",
+    "revision": "e36ae120933330cbb286",
     "url": "/pervote-web/static/css/main.5be49a67.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pervote-web/static/js/2.87226287.chunk.js"
   },
   {
-    "revision": "8274c597222d3b5ffd26",
-    "url": "/pervote-web/static/js/main.d55d5416.chunk.js"
+    "revision": "e36ae120933330cbb286",
+    "url": "/pervote-web/static/js/main.abf128f2.chunk.js"
   },
   {
     "revision": "9d017d93ff978f6211b3",
