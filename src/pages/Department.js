@@ -113,8 +113,6 @@ export default class Department extends Component {
 
         if (temp.department !== templete.department) {
           gosterileceklertekil.department = templete.department;
-        }
-        if (gosterileceklertekil.department !== "") {
           gosterilecekler[counter] = gosterileceklertekil;
           counter++;
         }
@@ -134,7 +132,7 @@ export default class Department extends Component {
           this.setState({ alertText: "Check your connection" });
         } else {
           this.setState({ showAlert: true });
-          this.setState({ alertText: "Department deleted succesfully!" });
+          this.setState({ alertText: "Department deleted succesfully!." });
         }
       });
     }
