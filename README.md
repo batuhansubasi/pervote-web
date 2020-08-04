@@ -1,10 +1,5 @@
 # Pervote (Personel Oylama Sistemi) | pervote-web
 
-2019/2020 Kocaeli Üniversitesi Bilgisayar Mühendisliği Bölümü Bitirme Tezi Çalışmasıdır.
-
-* 160202091 - Batuhan Subaşı
-* 160202069 - Emre Altay
-
 Bu repo web tarafını kapsamaktadır. Proje 3 farklı sistem üzerinden 3 repo halinde yürümektedir.
 
 * [pervote-web](https://github.com/batuhansubasi/pervote-web)     - Frontend Web 
